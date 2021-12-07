@@ -1,0 +1,148 @@
+/* Importing component files */
+
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+
+/* Colors & Fonts */
+body{
+	background-color: black;
+	color: whitesmoke	;
+	font-family: helvetica;
+}
+
+h1{
+	font-family: 'Cormorant Upright', serif;
+    text-transform: uppercase;	
+    font-size: 55px;
+}
+
+
+h2,p,a {	
+	font-family: 'Cormorant Upright', serif;
+}
+
+h2{
+	font size: 30px;
+	font-weight: 500;
+	color: whitesmoke;
+	}
+
+p{	
+	font-family: 'Cormorant Upright', serif;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 15px;
+}
+
+a:hover	{
+	font-weight: 800;
+	font-size: 20px;
+
+}
+
+/* Classes & IDs */
+.container{
+	width: 800px;
+	margin: 5px auto;
+}
+
+.container-white{
+	width: 700px;
+	margin: 5px auto;
+	background: transparent;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+	text-align: center;
+}
+
+
+
+@media (max-width: 960px) {
+	.container{	
+		width: 700px;
+	}
+}
+
+@media (max-width: 960px) {
+	.container-white{	
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{	
+		width: 500px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container-white{	
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{	
+		width: 300px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container-purple{	
+		width: 300px;
+	}
+}
+
+
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:hover{
+	color: 	whitesmoke;
+}
+
+.card {
+  display: flex;
+	width: 1170px;
+	margin: 5px auto;
+	background: #241f1f;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1);
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  padding: 30px;
+}
